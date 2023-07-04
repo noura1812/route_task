@@ -15,8 +15,8 @@ class ProductsListGetDataFailureState extends ProductsListStates {
 }
 
 class ProductsListGetDataSuccessState extends ProductsListStates {
-  ProductsListEntitie productsListEntitie;
+  ProductsListEntities productsListEntities;
   ProductsListGetDataSuccessState({
-    required this.productsListEntitie,
+    required this.productsListEntities,
   });
 }

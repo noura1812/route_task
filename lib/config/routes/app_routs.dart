@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:route_task/features/products%20list/presentation/pages/items_list.dart';
+import 'package:route_task/features/products%20list/presentation/pages/products_list.dart';
 
 class Routes {
   static const String productsList = '/';
@@ -10,7 +10,7 @@ class AppRoutes {
     switch (routeSettings.name) {
       case Routes.productsList:
         return MaterialPageRoute(
-          builder: (context) => const ItemsList(),
+          builder: (context) => const ProductsList(),
         );
       default:
         {

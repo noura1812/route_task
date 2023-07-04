@@ -1,14 +1,14 @@
-class ProductsListEntitie {
-  List<ProductsEntitie>? products;
+class ProductsListEntities {
+  List<ProductsEntities>? products;
   int? total;
 
-  ProductsListEntitie({
+  ProductsListEntities({
     this.products,
     this.total,
   });
 }
 
-class ProductsEntitie {
+class ProductsEntities {
   String? title;
   String? description;
   int? price;
@@ -17,7 +17,7 @@ class ProductsEntitie {
   int? stock;
   String? thumbnail;
 
-  ProductsEntitie(
+  ProductsEntities(
       {this.title,
       this.description,
       this.price,

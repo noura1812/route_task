@@ -5,10 +5,10 @@ import 'package:route_task/features/products%20list/domain/entities/products_lis
 import 'package:route_task/features/products%20list/domain/repositories/products_list_domain_repo.dart';
 
 class ProductsListUseCase {
-  ProductsListDomanRepo productsListDomanRepo;
+  ProductsListDomainRepo productsListDomainRepo;
   ProductsListUseCase({
-    required this.productsListDomanRepo,
+    required this.productsListDomainRepo,
   });
-  Future<Either<Failures, ProductsListEntitie>> call() =>
-      productsListDomanRepo.getProducts();
+  Future<Either<Failures, ProductsListEntities>> call() =>
+      productsListDomainRepo.getProducts();
 }

@@ -1,6 +1,6 @@
 import 'package:route_task/features/products%20list/domain/entities/products_list_entities.dart';
 
-class ProductsListModel extends ProductsListEntitie {
+class ProductsListModel extends ProductsListEntities {
   int? skip;
   int? limit;
 
@@ -26,7 +26,7 @@ class ProductsListModel extends ProductsListEntitie {
   }
 }
 
-class ProductsModel extends ProductsEntitie {
+class ProductsModel extends ProductsEntities {
   int? id;
   String? brand;
   String? category;
