@@ -1,16 +1,14 @@
 # route_task
 
-A new Flutter project.
+products list screen task, using clean architecture & cubit  
 
 ## Getting Started
+in case of successfully loading the data from the API:
 
-This project is a starting point for a Flutter application.
+![978fbf47-b2a9-4930-b1ff-dd96ffb7cd31](https://github.com/noura1812/route_task/assets/108556485/3823b45b-31d9-478c-9d40-8d060cf49f3e)
 
-A few resources to get you started if this is your first Flutter project:
+in case of any loading error:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![299d02e3-f6cc-4295-af4a-be2100a5110a](https://github.com/noura1812/route_task/assets/108556485/bd9a99b1-db3c-4fdb-a8f9-21e02cae1819)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+6![9ca68eb6-9888-4b7e-9682-82cc7776101b](https://github.com/noura1812/route_task/assets/108556485/497be307-9396-4b6a-b639-0a3bd2b24ee4)
